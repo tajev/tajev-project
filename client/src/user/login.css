@@ -1,0 +1,66 @@
+.cardLogin{
+    width:40%;
+    margin-left:400px;
+     height:450px;
+     border: 2px solid gainsboro;
+     border-radius: 6px;
+
+}
+.textLogin{
+    background-color:#37889A;
+    height: 45px;
+    width: 470px;
+    color: white;
+    border-radius: 6px;
+    font-size:20px ;   
+    
+}
+
+.checkboxRegister{
+    float:right;
+    text-align: right;
+    margin-left: 200px;
+    
+
+}
+
+
+@media(max-width:740px){
+    .cardLogin{
+        margin-top: 30px;
+        margin-left:3%; 
+        width: 95%;
+        height: 620px;
+    }
+    .textLogin{
+        width: 100%;
+        font-size:15px ;
+    }
+    .checkboxRegister{
+font-size: 13px;
+margin-left: 90px;
+    }
+
+}
+
+@media(min-width:300px){
+
+    .textLogin{
+        
+        font-size:14px ;
+    }
+
+} 
+
+@media(max-width:1100px){
+    .cardLogin{
+        margin-top: 30px;
+        margin-left:3%; 
+        width: 95%;
+    }
+    .textLogin{
+        width: 100%;
+        font-size:15px ;
+    }
+
+}

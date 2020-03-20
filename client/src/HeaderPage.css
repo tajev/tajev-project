@@ -1,0 +1,62 @@
+.HeaderPage{
+    /* height: calc(65px + 2.5vw); */
+    height: calc(120px + 0.5vw);
+    background-color: white;
+    padding:calc(5px + 0.5vw);
+}
+
+.HeaderPage>div{
+    background-image: url(./Images/Logo.JPG);
+    background-repeat: no-repeat; 
+    
+    height: 90%;
+    /* max-width: 80vw; */
+    background-position: 39vw;
+    /* animation: App-logo-spin  20s linear; */
+}
+.HeaderPage>div{
+    position: relative;
+    overflow: hidden;
+}
+
+@media(max-width:999px){
+    .HeaderPage>div{
+        background-position: 32vw;  
+    } 
+}
+
+@media(max-width:450px){
+    .HeaderPage>div{
+        background-position: 15vw;  
+    } 
+}
+
+@media(max-width:770){
+    .HeaderPage>div{
+        background-position: 2vw;  
+    } 
+}
+
+
+/* 
+@media(max-width:999px){
+    .HeaderPage>div{
+        background-position: 250px;  
+    } 
+}
+
+@media(max-width:300){
+    .HeaderPage>div{
+        /* float: left; */
+/*       
+        background-position: center;  
+    } 
+} */ 
+
+/* .HeaderPage>div::after{
+    background-color: khaki !important;
+    width:500px !important;
+    height: 100px !important;
+    display: block !important;
+    z-index: 10000 !important;
+} */

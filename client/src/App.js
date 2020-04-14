@@ -12,11 +12,9 @@ import HeaderPage from "./HeaderPage.js";
 import NewUser from "./user/NewUser";
 import Terms from "./user/Terms";
 import HomeRedirect from './Pages/HomeRedirect';
-
-
-
-
- import "bootstrap/dist/css/bootstrap.min.css";
+import Practice from './Pages/Practice';
+import Calendar from './Pages/Calendar';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // import A from "./users/1.js";
 // import Logout from "./users/logout.js";
@@ -68,7 +66,7 @@ class App extends Component {
       {this.state.user ?<Link to='/Page' >Photo App</Link> : ''} */}
        {!this.state.user ? <Link to='/newUser'>NewUser</Link> : ""}
        {!this.state.user ? <Link to='/Terms'>Terms</Link> : ""}
-      
+       {!this.state.user ? <Link to='/Practice'>Practice</Link> : ""}
       
       
       <Switch>
@@ -89,17 +87,9 @@ class App extends Component {
       <Route exact path="/newUser" component={NewUser} />
       <Route exact path="/Terms" component={Terms} />
       <Route exact path="/HomeRedirect" component={HomeRedirect} />
-  
-          
-                  
+      <Route exact path="/Practice" component={Practice} />
+      <Route exact path="/CalendarApp" component={Calendar} />
       
- 
-
-     
-
-
-        
-        
 
       </Switch>
       

@@ -32,6 +32,7 @@
     "date-fns": "^2.12.0",
     "express": "^4.16.4",
     "express-handlebars": "^3.1.0",
+    "gapi-client": "0.0.3",
     "googleapis": "^39.2.0",
     "mdbootstrap": "^4.15.0",
     "mdbreact": "^4.25.5",
@@ -44,7 +45,8 @@
     "react-calendar": "^3.0.1",
     "react-google-calendar-api": "^1.0.11",
     "react-icons": "^3.9.0",
-    "reactjs-google-calendar": "^1.0.1"
+    "reactjs-google-calendar": "^1.0.1",
+    "tooltip": "^1.6.1"
   },
   "devDependencies": {
     "concurrently": "^5.0.2"

@@ -37,8 +37,6 @@ export class Practice extends Component {
 
 
 <Form>
-    
-  
   <Form.Group className="FormMeeting" controlId="Form.meeting">
     <Form.Control as="select" size="sm"  >
       <option>08:00</option>

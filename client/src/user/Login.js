@@ -99,7 +99,7 @@ class Login extends Component {
     const disabled = !this.state.user.email || !this.state.user.password ;
 
     if (this.state.redirectToStudent) {
-       return <Redirect to="/Practice" />;
+       return <Redirect to="/calendar" />;
     }
 
     if (this.state.redirectToRegister) {

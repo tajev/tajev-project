@@ -57,7 +57,7 @@ export class Practice extends Component {
     </Form.Control>
   </Form.Group>
 
-  <p className="text">:פעילות מועודפת להיום</p>
+  <p className="text">  :פעילות מועדפת להיום</p>
   
   
 </Form>

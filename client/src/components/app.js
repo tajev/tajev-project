@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./app.css";
 import moment from "moment";
 import drive from "../Images/drive.png";
 import KitchenActivity from "../Images/KitchenActivity.png";
@@ -14,6 +15,7 @@ import Form from 'react-bootstrap/Form';
 import { GiPuzzle,GiChefToque,GiBabyfootPlayers } from "react-icons/gi";
 import { FaCar,FaShower } from "react-icons/fa";
 import { AiOutlineRead } from "react-icons/ai";
+
 
 export default class Calendar extends Component {
   constructor(props) {
@@ -180,7 +182,9 @@ export default class Calendar extends Component {
                 </div>
 
                 <Form>
-  <Form.Group className="FormMeeting" controlId="Form.meeting">
+    <input type="time" id="apptime" name="apptim" step="1500000" min="09:00" max="18:00" required/>
+
+  {/* <Form.Group className="FormMeeting" controlId="Form.meeting">
     <Form.Control as="select" size="sm"  >
       <option>08:00</option>
       <option>09:00</option>
@@ -198,9 +202,10 @@ export default class Calendar extends Component {
       <option>21:00</option>
       <option>22:00</option>
     </Form.Control>
-  </Form.Group>
+  </Form.Group> */}
 
-  <p className="text" style={{marginRight:"40%"}}>:פעילות מועודפת להיום</p>
+  {/* <p className="text" style={{marginRight:"40%"}}>:פעילות מועדפת להיום</p> */}
+  <p className="textP" >:פעילות מועדפת להיום</p>
   
   
   </Form>
@@ -234,7 +239,7 @@ export default class Calendar extends Component {
             href="https://calendar.google.com/calendar?cid=c3FtMnVkaTFhZGY2ZHM3Z2o5aDgxdHVldDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
             target="_blank"
           >
-            <img src={drive} alt="drive" className="icon" data-toggle="tooltip" title="מכוננית"/>
+            <img src={drive} alt="drive" className="icon" data-toggle="tooltip"  title= "מכונית"  />
           </a>
 
           <a
@@ -283,16 +288,17 @@ export default class Calendar extends Component {
           >
             <img src={StoryTime} alt="StoryTime" className="icon" data-toggle="tooltip" title="זמן סיפור" />
           </a>
+          
           </div>
           
-       
+          
         </div>
         <div>
 
 
             <p> _____________________________________________________________</p>
 
-            <p>איזה כייף, נפגשים בקרוב! תזכורת לתרגל תשלח לפני הפעילות</p>
+            <p>איזה כיף, נפגשים בקרוב! תזכורת לתרגל תשלח לפני הפעילות</p>
         </div>
         
     

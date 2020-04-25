@@ -83,7 +83,7 @@ class App extends Component {
           <Route exact path="/logout" render={()=><Logout setEmail={this.setEmail} setToken={this.setToken}/>} />
           <Route exact path="/register" render={()=><Register setEmail={this.setEmail}/>} />
           <Route exact path="/forgotPassword" component={ForgotPassword} />
-      ``    <Route exact path="/resetPassword" render={(props)=><ResetPassword {...props} setEmail={this.setEmail} setResetPsdSuccessed={this.setResetPsdSuccessed} />} />
+        <Route exact path="/resetPassword" render={(props)=><ResetPassword {...props} setEmail={this.setEmail} setResetPsdSuccessed={this.setResetPsdSuccessed} />} />
       <Route exact path="/newUser" component={NewUser} />
       <Route exact path="/Terms" component={Terms} />
       <Route exact path="/HomeRedirect" component={HomeRedirect} />

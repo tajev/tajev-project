@@ -1,0 +1,18 @@
+.primary-cta {
+  position: relative;
+    margin: 1px -1px 0 0;
+    text-align: bold;
+    border: 1px solid #d9d9d9;
+    padding: 20px;
+}
+.primary-cta title {
+  font-size: 10%;
+  color: black;
+}
+.textP{
+   text-align: center;
+}
+.icon{
+  text-align: bold;
+  color: black; 
+}

@@ -74,7 +74,8 @@ class Login extends Component {
         }
       })
       .catch(err => {
-        this.setState({ buttonSending: false, errorNum: err.response.status });
+        // this.setState({ buttonSending: false, errorNum: err.response.status });
+        this.setState({ buttonSending: false });
         
       });
    
